@@ -52,7 +52,7 @@ button{
     border-radius: 50%;
     background: transparent;
     color: #ffffff;
-    font-size: 4vh;
+    font-size: 2vh;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
     cursor: pointer;
     
@@ -70,6 +70,8 @@ button{
     color: rgba(24, 208, 24, 0.707);
 }
 
-@media (width < 500px){
-    
+@media(max-width : 582px){
+    button{
+        margin: 1% 5%;
+    }
 }
