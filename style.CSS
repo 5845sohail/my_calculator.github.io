@@ -18,8 +18,8 @@ body{
 
 .calculator{
     border: 1px solid #717377;
-    padding: 20px;
-    border-radius: 16px;
+    padding: 2vh;
+    border-radius: 5vh;
     background-color: transparent;
     box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
     
@@ -28,11 +28,11 @@ body{
 input{
     width: 100%;
     border: none;
-    padding: 24px;
-    margin: 10px;
+    padding: 5vh;
+    margin: 1vw;
     background: transparent;
     box-shadow: 0px 3px 15px rgba(84, 84,84, 0.1);
-    font-size: 40px;
+    font-size: 5vh;
     text-align: right;
     cursor: pointer;
     color:white
@@ -46,13 +46,13 @@ input::placeholder{
 
 button{
     border: none;
-    width: 90px;
-    height: 90px;
-    margin: 10px;
+    width: 10vw;
+    height: 12vh;
+    margin: 1vh;
     border-radius: 50%;
     background: transparent;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 4vh;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
     cursor: pointer;
     
@@ -68,4 +68,8 @@ button{
 
 .operator{
     color: rgba(24, 208, 24, 0.707);
+}
+
+@media (width < 500px){
+    
 }
