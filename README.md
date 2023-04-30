@@ -1,1 +1,1 @@
-# S_calculator.github.io
+# my_calculator.github.io
